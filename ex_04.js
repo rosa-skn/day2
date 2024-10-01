@@ -1,12 +1,12 @@
 let a=3
 let b=5
-let action = "add"
+let action = "sub"
 
 function calculator(){
 if (action === "add"){
 return addiction()
 } else if (action==="sub"){
-return substration()
+return substraction()
 }
 
 }
