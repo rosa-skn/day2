@@ -1,17 +1,16 @@
 function changebackground() {
-  var magicNumber = 1;
-  var magicNumber = 2;
-  var magicNumber = 3;
-
-  if (magicNumber === 3) {
-    paintGreenRectangle();
-  }
-  if (magicNumber === 3) {
-    paintRedRectangle();
-  }
-  if (magicNumber === 3) {
+ var magicNumber = 1;
+if (magicNumber === 1) {
     paintYellowRectangle();
-  }
-}
+    let magicNumber = 2;
+    if (magicNumber === 2) {
+    paintGreenRectangle();
+    let magicNumber = 3;
+    if (magicNumber === 3) {
+    paintRedRectangle();
+    }
+    }
+    }
+    }
 
 changebackground();
